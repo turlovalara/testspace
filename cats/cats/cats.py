@@ -13,11 +13,11 @@ class Cats:
         return "Meow!"
 
     def eat(self):
-        self.hungry = self.hungry + 1
+        self.__hungry = self.__hungry + 1
         return self.__hungry
 
     def pipi(self):
-        self.hungry = self.hungry - 1
+        self.__hungry = self.__hungry - 1
         return self.__hungry
 
     def set_hungry(self, num):
