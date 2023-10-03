@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "users"
+version = "0.1.0"
+description = ""
+authors = ["rkavlev <r.kavlev@ritm.media>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cats = {path="./cats/"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
