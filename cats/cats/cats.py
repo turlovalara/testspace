@@ -32,13 +32,3 @@ class Cats:
 
     def __str__(self):
         return f'Cats name {self.name}'
-
-
-barsik = Cats(name="Barsik")
-print(barsik.__dict__)
-print(barsik.get_hungry())
-
-barsik.set_hungry(-1)
-print(barsik.get_hungry())
-
-print(barsik)
