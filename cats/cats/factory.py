@@ -28,13 +28,3 @@ class AminalFactory:
             return Cats(name=name)
         else:
             raise ValueError("Животное не существует")
-
-animal_factory = AminalFactory()
-
-dog = animal_factory.create_animal("dog", "Bobik")
-print(dog.say())
-
-cat = animal_factory.create_animal("cat", "Vasya")
-print(cat.say())
-
-fish = animal_factory.create_animal("fish", "")
